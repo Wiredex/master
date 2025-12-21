@@ -37,15 +37,7 @@
         <audio id="player" src="Metallica_-_Master_Of_Puppets.mp3" controls></audio>
     </div>
 
-    <script>
-        window.addEventListener('load', () => {
-            setTimeout(() => {
-                const player = document.getElementById('player');
-                player.autoplay = true;
-                player.play().catch(error => console.error('Воспроизведение заблокировано:', error));
-            }, 100); // Небольшая задержка перед попыткой автозапуска
-        });
-    </script>
 </body>
 
 </html>
+
